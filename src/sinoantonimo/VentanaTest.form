@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                      <Component id="ButtonResultados" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="513" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="Pregunta3" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Component id="Pregunta4" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtImpNombre" min="-2" pref="124" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="pregunta1" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Component id="Pregunta2" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="Rta31" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="Rta32" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="Rta21" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                                                      <Component id="Rta22" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="Rta51" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="Rta52" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="Rta41" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                                                      <Component id="Rta42" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Rta11" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="Rta12" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="Pregunta5" min="-2" pref="141" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="40" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Pregunta8" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="Rta81" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                              <Component id="Rta82" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="Pregunta10" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                          <Component id="Pregunta6" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="Rta61" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Rta62" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="Pregunta7" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="Rta71" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                              <Component id="Rta72" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="Rta101" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                              <Component id="Rta102" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="Rta91" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="Rta92" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Pregunta9" min="-2" pref="141" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+              <Component id="TextoResultados" min="-2" pref="229" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel3" pref="30" max="32767" attributes="0"/>
+                  <Component id="txtImpNombre" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="pregunta1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Pregunta2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Pregunta3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta32" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Pregunta4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta41" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta42" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Pregunta5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta51" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta52" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Pregunta6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta61" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta62" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Pregunta7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta71" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta72" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Pregunta8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta81" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta82" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Pregunta9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Rta91" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta92" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Pregunta10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Rta101" min="-2" max="-2" attributes="0"/>
+                          <Component id="Rta102" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="ButtonResultados" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="TextoResultados" min="-2" pref="63" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Hola Jugador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtImpNombre">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A continuaci&#xf3;n encontrar&#xe1; diez preguntas sobre sin&#xf3;nimos, por favor escoja la correcta."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pregunta1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A trochemoche"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Disparatadamente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anticipadamente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Abac&#xe1;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lienzo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rta21ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cabuya"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buzonera"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta31">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Conducto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Armario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ceb&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta41">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Velas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta42">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cerdo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jaca"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta51">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Caballo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta52">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc1;guila"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P&#xe1;bilo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta91">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mecha"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta92">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Trapo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xe1;bil"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A ultranza"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta101">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fr&#xe1;gil"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta61">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Resueltamente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta102">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fuerte"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta62">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Indecisi&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kiosco"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta71">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Garita"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pregunta8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Macelo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta72">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Terreno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta81">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ba&#xf1;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Rta82">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Degolladero"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="ButtonResultados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ver Resultados"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonResultadosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TextoResultados">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
