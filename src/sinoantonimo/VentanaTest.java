@@ -33,9 +33,17 @@ public class VentanaTest extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         
+        /**
+         * Inicializa la ventana de Bienvenida
+         */
         VentanaBienvenida ventana = new VentanaBienvenida();
         txtImpNombre.setText(ventana.nombrejugador); // aca se llama la clase publica de la ventana anterior para mostrar el nombre que se introdujo en el cuadro de texto de la ventana anterior.
         
+        /**
+         * Agrega las opciones de respuesta a los grupos de botones.
+         * mediante las opciones que se despliegan en las ventanas 
+         * se indica que solo se puede escoger una unica respuesta por pregunta realizada.
+         */
         respuesta1.add(Rta11);
         respuesta1.add(Rta12);
         
@@ -64,7 +72,7 @@ public class VentanaTest extends javax.swing.JFrame {
         respuesta9.add(Rta92);
         
         respuesta10.add(Rta101);
-        respuesta10.add(Rta102);// mediante las opciones que se despliegan en las ventanas se indica que solo se puede escoger una unica respuesta por pregunta realizada.
+        respuesta10.add(Rta102);
         
     }
 
@@ -77,6 +85,9 @@ public class VentanaTest extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+    	/**
+    	 * Inicialización de todos los componentes visuales de la aplicación
+    	 */
         jLabel3 = new javax.swing.JLabel();
         txtImpNombre = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -114,14 +125,23 @@ public class VentanaTest extends javax.swing.JFrame {
         ButtonResultados = new javax.swing.JButton();
         TextoResultados = new javax.swing.JLabel();
 
+        /**
+         * Define la operación de cierre de la ventana
+         */
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        /**
+         * Establece estilos de fuente para los label
+         */
         jLabel3.setFont(new java.awt.Font("Tempus Sans ITC", 1, 12)); // NOI18N
         jLabel3.setText("Hola Jugador");
 
         txtImpNombre.setFont(new java.awt.Font("Tempus Sans ITC", 1, 12)); // NOI18N
         txtImpNombre.setText("jLabel1");
 
+        /**
+         * Definición para el botón de regresar
+         */
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -129,7 +149,10 @@ public class VentanaTest extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("A continuación encontrará diez preguntas sobre sinónimos, por favor escoja la correcta.");
+        /**
+         * Se agregan las palabras al menu de las preguntas
+         */
+        jLabel1.setText("A continuaciÃ³n encontrarÃ¡ diez preguntas sobre sinÃ³nimos, por favor escoja la correcta.");
 
         pregunta1.setText("A trochemoche");
 
@@ -137,7 +160,7 @@ public class VentanaTest extends javax.swing.JFrame {
 
         Rta12.setText("Anticipadamente");
 
-        Pregunta2.setText("Abacá");
+        Pregunta2.setText("AbacÃ¡");
 
         Rta21.setText("Lienzo");
         Rta21.addActionListener(new java.awt.event.ActionListener() {
@@ -155,7 +178,7 @@ public class VentanaTest extends javax.swing.JFrame {
 
         Rta32.setText("Armario");
 
-        Pregunta4.setText("Cebón");
+        Pregunta4.setText("CebÃ³n");
 
         Rta41.setText("Velas");
 
@@ -165,25 +188,25 @@ public class VentanaTest extends javax.swing.JFrame {
 
         Rta51.setText("Caballo");
 
-        Rta52.setText("Águila");
+        Rta52.setText("Ã�guila");
 
-        Pregunta9.setText("Pábilo");
+        Pregunta9.setText("PÃ¡bilo");
 
         Rta91.setText("Mecha");
 
         Rta92.setText("Trapo");
 
-        Pregunta10.setText("Lábil");
+        Pregunta10.setText("LÃ¡bil");
 
         Pregunta6.setText("A ultranza");
 
-        Rta101.setText("Frágil");
+        Rta101.setText("FrÃ¡gil");
 
         Rta61.setText("Resueltamente");
 
         Rta102.setText("Fuerte");
 
-        Rta62.setText("Indecisión");
+        Rta62.setText("IndecisiÃ³n");
 
         Pregunta7.setText("Kiosco");
 
@@ -193,7 +216,7 @@ public class VentanaTest extends javax.swing.JFrame {
 
         Rta72.setText("Terreno");
 
-        Rta81.setText("Baño");
+        Rta81.setText("BaÃ±o");
 
         Rta82.setText("Degolladero");
 
@@ -378,26 +401,39 @@ public class VentanaTest extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * esta acción indica que al momento de hacer clic en regresar, 
+     * la ventana actual se oculta para volver a la ventana anterior
+     * @param evt Evento de la acción del botón
+     */
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         VentanaBienvenida regresar = new VentanaBienvenida();
         regresar.setVisible(true);
-        this.setVisible(false); // esta accion indica que al momento de hacer clic en regrresar, la ventana actual se oculta para volver a la ventana anterior
+        this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void Rta21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Rta21ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_Rta21ActionPerformed
 
+    /**
+     * Método que evalua el resultado del juego
+     * @param evt Evento de entrada del clic del botón
+     */
     private void ButtonResultadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonResultadosActionPerformed
         // TODO add your handling code here:
+    	
+    	/**
+    	 * mediante las condicionales se programan las respuestas 
+    	 * y se realiza la suma del puntaje segÃºin las opciones escogidas.
+    	 */
         
         int puntaje = 0;
         String resultados="";
         
         if(Rta11.isSelected()){
         puntaje = puntaje + 1;
-        }
-        else{
+        } else{
             if (Rta12.isSelected()){
                 puntaje = puntaje;
             }
@@ -477,16 +513,20 @@ public class VentanaTest extends javax.swing.JFrame {
         }
         else{
             if (Rta102.isSelected()){
-                puntaje = puntaje; //mediante las condicionales se programan las respuestas y se realiza la suma del puntaje segúin las opciones escogidas.
+                puntaje = puntaje;
             }
         }
         
         if (puntaje>=8){
-            resultados ="Eres el gurú del idioma español";
+            resultados ="Eres el gurÃº del idioma espaÃ±ol";
         }
         else resultados ="Debes estudiar un poco mas";
-        
-        TextoResultados.setText(""+resultados);// se concatena y se escribe el resultado, la pruba se pasa si el puntaje es mayor o igual a 8
+
+        /**
+         * Se concatena y se escribe el resultado. 
+         * La prueba se pasa si el puntaje es mayor o igual a 8
+         */
+        TextoResultados.setText(""+resultados);
         
         
         
@@ -497,6 +537,7 @@ public class VentanaTest extends javax.swing.JFrame {
     }//GEN-LAST:event_ButtonResultadosActionPerformed
 
     /**
+     * Método de entrada de la clase
      * @param args the command line arguments
      */
     public static void main(String args[]) {

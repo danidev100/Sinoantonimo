@@ -58,6 +58,9 @@ public class VentanaBienvenida extends javax.swing.JFrame {
             }
         });
 
+        /**
+         * Definición de layouts para las pantallas de los Pane
+         */
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -100,6 +103,9 @@ public class VentanaBienvenida extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
       nombrejugador = TextNombreJugador.getText();
       
+      /**
+       * Creación de la otra instancia de ventana
+       */
       VentanaTest ventana = new VentanaTest();
       ventana.setVisible(true);
       this.setVisible(false);  //en estas dos lineas de codigo  (98 y 99) le estamos dciendo al cÃ³digo que la ventana actual se oculte para dar paso a la siguiente
@@ -107,6 +113,7 @@ public class VentanaBienvenida extends javax.swing.JFrame {
 
     /**
      * @param args the command line arguments
+     * Método principal de entrada de la aplicación
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -132,7 +139,7 @@ public class VentanaBienvenida extends javax.swing.JFrame {
         }
         //</editor-fold>
 
-        /* Create and display the form */
+        /* Crea y establece la ventana de Bienvenida como true */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new VentanaBienvenida().setVisible(true);
